@@ -131,17 +131,11 @@ public class ReportesView extends JFrame{
 
 //        mostrar primer informe
         btnNewButton_2.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent e) {
-                primerInforme();
-
-            }
+            public void actionPerformed(ActionEvent e) {primerInforme();}
         });
 
         btnNewButton_3.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent e) {
-                segundoInforme();
-
-            }
+            public void actionPerformed(ActionEvent e) {segundoInforme();}
         });
 
         btnNewButton_4.addActionListener(new ActionListener() {
